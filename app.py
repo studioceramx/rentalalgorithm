@@ -36,8 +36,8 @@ def main():
 
     # --- Display Results ---
     st.subheader("Results")
-    st.write(f"**Daily Rental Rate:** ${daily_rate:,.2f}")
-    st.write(f"**Total Rental Cost:** ${total_cost:,.2f}")
+    st.write(f"**Daily Rental Rate:** AED{daily_rate:,.2f}")
+    st.write(f"**Total Rental Cost:** AED{total_cost:,.2f}")
 
 if __name__ == "__main__":
     main()
