@@ -27,7 +27,7 @@ def main():
     # --- User Inputs ---
     C = st.number_input("Purchase Cost (C)", value=1000.0, min_value=0.0, step=100.0)
     d = st.number_input("Number of Days (d)", value=10, min_value=1, step=1)
-    alpha = st.slider("Scaling Constant (α)", min_value=0.0, max_value=1.0, value=0.50, step=0.01)
+    alpha = st.slider("Scaling Constant (α)", min_value=0.0, max_value=1.0, value=0.35, step=0.01)
     beta = st.slider("Discount Exponent (β)", min_value=0.0, max_value=2.0, value=0.50, step=0.01)
 
     # --- Calculations ---
