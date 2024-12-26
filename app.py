@@ -9,10 +9,10 @@ def calculate_daily_rate(C, d, alpha, beta):
     return (alpha * C) / (d ** beta)
 
 def main():
-    st.title("Art Rental Calculator")
+    st.title("Ceramx Rental Calculator")
 
     st.write("""
-    This app computes the **daily rental rate** and **total rental cost** for an art piece based on:
+    This app computes the **daily rental rate** and **total rental cost** for an art piece or equipment based on:
     
     **Formula**:  
     Daily Rate(d) = (α × C) / (d^β)
